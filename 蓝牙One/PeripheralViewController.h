@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PeripheralViewController.h
 //  蓝牙One
 //
 //  Created by qianfeng on 16/7/23.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface PeripheralViewController : UIViewController
 
 @end
-

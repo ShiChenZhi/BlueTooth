@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		BC05D0A11D4308AB00D9D6F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0A01D4308AB00D9D6F3 /* main.m */; };
 		BC05D0A41D4308AB00D9D6F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0A31D4308AB00D9D6F3 /* AppDelegate.m */; };
-		BC05D0A71D4308AB00D9D6F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0A61D4308AB00D9D6F3 /* ViewController.m */; };
-		BC05D0AA1D4308AB00D9D6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC05D0A81D4308AB00D9D6F3 /* Main.storyboard */; };
 		BC05D0AC1D4308AB00D9D6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC05D0AB1D4308AB00D9D6F3 /* Assets.xcassets */; };
 		BC05D0AF1D4308AB00D9D6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC05D0AD1D4308AB00D9D6F3 /* LaunchScreen.storyboard */; };
 		BC05D0BA1D4308AB00D9D6F3 /* __OneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0B91D4308AB00D9D6F3 /* __OneTests.m */; };
 		BC05D0C51D4308AB00D9D6F3 /* __OneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0C41D4308AB00D9D6F3 /* __OneUITests.m */; };
+		BC05D0D61D43094900D9D6F3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0D51D43094900D9D6F3 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC05D0D91D430A8400D9D6F3 /* SYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0D81D430A8400D9D6F3 /* SYTools.m */; settings = {ASSET_TAGS = (); }; };
+		BC05D0DC1D430D3F00D9D6F3 /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0DB1D430D3F00D9D6F3 /* CentralViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC05D0DF1D430D6300D9D6F3 /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05D0DE1D430D6300D9D6F3 /* PeripheralViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,6 @@
 		BC05D0A01D4308AB00D9D6F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC05D0A21D4308AB00D9D6F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC05D0A31D4308AB00D9D6F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC05D0A51D4308AB00D9D6F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC05D0A61D4308AB00D9D6F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BC05D0A91D4308AB00D9D6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC05D0AB1D4308AB00D9D6F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC05D0AE1D4308AB00D9D6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC05D0B01D4308AB00D9D6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,15 @@
 		BC05D0C01D4308AB00D9D6F3 /* 蓝牙OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC05D0C41D4308AB00D9D6F3 /* __OneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __OneUITests.m; sourceTree = "<group>"; };
 		BC05D0C61D4308AB00D9D6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC05D0D41D43094900D9D6F3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BC05D0D51D43094900D9D6F3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BC05D0D71D430A8400D9D6F3 /* SYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTools.h; sourceTree = "<group>"; };
+		BC05D0D81D430A8400D9D6F3 /* SYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTools.m; sourceTree = "<group>"; };
+		BC05D0DA1D430D3F00D9D6F3 /* CentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		BC05D0DB1D430D3F00D9D6F3 /* CentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
+		BC05D0DD1D430D6300D9D6F3 /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
+		BC05D0DE1D430D6300D9D6F3 /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
+		BC05D0E01D430EBD00D9D6F3 /* SYHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,8 @@
 		BC05D09E1D4308AB00D9D6F3 /* 蓝牙One */ = {
 			isa = PBXGroup;
 			children = (
-				BC05D0A21D4308AB00D9D6F3 /* AppDelegate.h */,
-				BC05D0A31D4308AB00D9D6F3 /* AppDelegate.m */,
-				BC05D0A51D4308AB00D9D6F3 /* ViewController.h */,
-				BC05D0A61D4308AB00D9D6F3 /* ViewController.m */,
-				BC05D0A81D4308AB00D9D6F3 /* Main.storyboard */,
-				BC05D0AB1D4308AB00D9D6F3 /* Assets.xcassets */,
-				BC05D0AD1D4308AB00D9D6F3 /* LaunchScreen.storyboard */,
-				BC05D0B01D4308AB00D9D6F3 /* Info.plist */,
+				BC05D0D31D43093600D9D6F3 /* Controllers */,
+				BC05D0D21D43092700D9D6F3 /* Other */,
 				BC05D09F1D4308AB00D9D6F3 /* Supporting Files */,
 			);
 			path = "蓝牙One";
@@ -138,6 +140,34 @@
 				BC05D0C61D4308AB00D9D6F3 /* Info.plist */,
 			);
 			path = "蓝牙OneUITests";
+			sourceTree = "<group>";
+		};
+		BC05D0D21D43092700D9D6F3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BC05D0A21D4308AB00D9D6F3 /* AppDelegate.h */,
+				BC05D0A31D4308AB00D9D6F3 /* AppDelegate.m */,
+				BC05D0AB1D4308AB00D9D6F3 /* Assets.xcassets */,
+				BC05D0AD1D4308AB00D9D6F3 /* LaunchScreen.storyboard */,
+				BC05D0B01D4308AB00D9D6F3 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		BC05D0D31D43093600D9D6F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC05D0D71D430A8400D9D6F3 /* SYTools.h */,
+				BC05D0D81D430A8400D9D6F3 /* SYTools.m */,
+				BC05D0E01D430EBD00D9D6F3 /* SYHeader.h */,
+				BC05D0D41D43094900D9D6F3 /* HomeViewController.h */,
+				BC05D0D51D43094900D9D6F3 /* HomeViewController.m */,
+				BC05D0DA1D430D3F00D9D6F3 /* CentralViewController.h */,
+				BC05D0DB1D430D3F00D9D6F3 /* CentralViewController.m */,
+				BC05D0DD1D430D6300D9D6F3 /* PeripheralViewController.h */,
+				BC05D0DE1D430D6300D9D6F3 /* PeripheralViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +275,6 @@
 			files = (
 				BC05D0AF1D4308AB00D9D6F3 /* LaunchScreen.storyboard in Resources */,
 				BC05D0AC1D4308AB00D9D6F3 /* Assets.xcassets in Resources */,
-				BC05D0AA1D4308AB00D9D6F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC05D0A71D4308AB00D9D6F3 /* ViewController.m in Sources */,
 				BC05D0A41D4308AB00D9D6F3 /* AppDelegate.m in Sources */,
+				BC05D0D91D430A8400D9D6F3 /* SYTools.m in Sources */,
+				BC05D0DF1D430D6300D9D6F3 /* PeripheralViewController.m in Sources */,
 				BC05D0A11D4308AB00D9D6F3 /* main.m in Sources */,
+				BC05D0D61D43094900D9D6F3 /* HomeViewController.m in Sources */,
+				BC05D0DC1D430D3F00D9D6F3 /* CentralViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC05D0A81D4308AB00D9D6F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC05D0A91D4308AB00D9D6F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC05D0AD1D4308AB00D9D6F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

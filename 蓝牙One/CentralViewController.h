@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CentralViewController.h
 //  蓝牙One
 //
 //  Created by qianfeng on 16/7/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CentralViewController : UIViewController
 
 @end
-
